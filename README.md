@@ -3,7 +3,7 @@
 - [x] sleep
 - [x] pingpong
 - [ ] primes
-- [ ] find
+- [x] find
 - [ ] xargs
 ##### additional
 - [ ] uptime
