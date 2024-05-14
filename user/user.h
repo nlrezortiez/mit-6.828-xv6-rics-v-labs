@@ -1,3 +1,10 @@
+#pragma once
+
+#include <kernel/types.h>
+
+#define EXIT_SUCCESS 0
+#define EXIT_FAILURE 1
+
 struct stat;
 
 // system calls
@@ -38,4 +45,5 @@ void* malloc(uint);
 void free(void*);
 int atoi(const char*);
 int memcmp(const void *, const void *, uint);
-void *memcpy(void *, const void *, uint);
+void* memcpy(void *, const void *, uint);
+char* strstr(const char* haystack, const char* needle); // TODO: implement strstr

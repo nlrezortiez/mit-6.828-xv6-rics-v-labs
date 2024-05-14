@@ -1,3 +1,7 @@
+#pragma once
+
+#include <kernel/types.h>
+
 // On-disk file system format.
 // Both the kernel and user programs use this header file.
 
